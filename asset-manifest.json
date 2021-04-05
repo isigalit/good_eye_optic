@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/good_eye_optic/static/css/main.7258190c.chunk.css",
+    "main.js": "/good_eye_optic/static/js/main.3fb48a7b.chunk.js",
+    "main.js.map": "/good_eye_optic/static/js/main.3fb48a7b.chunk.js.map",
+    "runtime-main.js": "/good_eye_optic/static/js/runtime-main.0814a8a4.js",
+    "runtime-main.js.map": "/good_eye_optic/static/js/runtime-main.0814a8a4.js.map",
+    "static/css/2.8f87e6a9.chunk.css": "/good_eye_optic/static/css/2.8f87e6a9.chunk.css",
+    "static/js/2.2717874a.chunk.js": "/good_eye_optic/static/js/2.2717874a.chunk.js",
+    "static/js/2.2717874a.chunk.js.map": "/good_eye_optic/static/js/2.2717874a.chunk.js.map",
+    "static/js/3.2267d9df.chunk.js": "/good_eye_optic/static/js/3.2267d9df.chunk.js",
+    "static/js/3.2267d9df.chunk.js.map": "/good_eye_optic/static/js/3.2267d9df.chunk.js.map",
+    "index.html": "/good_eye_optic/index.html",
+    "static/css/2.8f87e6a9.chunk.css.map": "/good_eye_optic/static/css/2.8f87e6a9.chunk.css.map",
+    "static/css/main.7258190c.chunk.css.map": "/good_eye_optic/static/css/main.7258190c.chunk.css.map",
+    "static/js/2.2717874a.chunk.js.LICENSE.txt": "/good_eye_optic/static/js/2.2717874a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/good_eye_optic/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0814a8a4.js",
+    "static/css/2.8f87e6a9.chunk.css",
+    "static/js/2.2717874a.chunk.js",
+    "static/css/main.7258190c.chunk.css",
+    "static/js/main.3fb48a7b.chunk.js"
+  ]
+}
