@@ -30,10 +30,9 @@ export default function Connect ()
                 </div>
             </div>
 
-            <p>
-                
-            <MailIcon fontSize="Large" style={{ marginRight: '.5rem' }}/>
-            <a href="mailto:orlyborochov@gmail.com">orlyborochov@gmail.com</a>
+            <p>                
+                <MailIcon fontSize="Large" style={{ marginRight: '.5rem' }}/>
+                <a href="mailto:orlyborochov@gmail.com">orlyborochov@gmail.com</a>
             </p>
 
             <img alt="pic" src="twoKids.png" className="rounded float-left" height="500"/> 

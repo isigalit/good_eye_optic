@@ -16,8 +16,6 @@ function App() {
   return (
     <div className="h-100 d-flex flex-column jutify-content-between">
       <Header />
-      
-     
      
         <Route path="/" exact>
           <div className="row justify-content-center ">
@@ -43,9 +41,6 @@ function App() {
           </div>
         </Route>
         
-        
-    
-
       <Footer />
 
 
