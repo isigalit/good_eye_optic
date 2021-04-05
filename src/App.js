@@ -6,7 +6,6 @@ import Home from './components/Home';
 import About from './components/About';
 import Connect from './components/Connect';
 import Clalit from './components/Clalit';
-
 import 'fontsource-roboto';
 
 import { Route } from 'react-router-dom';
