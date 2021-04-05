@@ -1,0 +1,30 @@
+
+
+export default function Header__ ()
+{
+
+    return(
+
+        <header className="navbar bg-light d-flex justify-content-between mr-auto">
+            <nav className="navbar container-xxl flex-wrap flex-md-nowrap navbar-expand-lg navbar-light justify-content-between mr-auto"> 
+
+                <img alt="Store Logo" src="AyinTova.jpg" height="100" />
+               
+                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li className="nav-item col-4 col-md-auto">
+                        <a className="nav-link active" href="/">דף הבית</a>
+                    </li>
+                    <li className="nav-item col-4 mr-auto">
+                        <a className="nav-link" href="/about">אודות</a>
+                    </li>
+                    <li className="nav-item col-4 mr-auto">
+                        <a className="nav-link" href="/todo">כללית אופטיק</a>
+                    </li>
+                </ul>
+              
+            </nav>
+        </header>
+
+    );
+
+}

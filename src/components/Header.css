@@ -1,0 +1,19 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+.header {
+  background-color:burlywood;
+  font-size: 80;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+  text-align: center;
+  font-weight: bold;
+
+  font-family: "Alef Hebrew",
+  “Helvetica Neue”,
+  Helvetica,
+  Arial,
+  sans-serif;
+}
+
