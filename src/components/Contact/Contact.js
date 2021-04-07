@@ -5,7 +5,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import img from "./twoKids.png"
 
 
-export default function Connect ()
+export default function Contact ()
 {
     return (
 

@@ -12,7 +12,7 @@ export default function Home(){
     const history = useHistory()
 
     const nevigateToConnect = () => {
-        history.push('/connect');
+        history.push('/contact');
     }
 
     return (

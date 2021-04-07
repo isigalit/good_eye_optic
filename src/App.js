@@ -4,7 +4,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import About from './components/About/About'
-import Connect from './components/Connect/Connect';
+import Contact from './components/Contact/Contact';
 import Clalit from './components/Clalit/Clalit';
 import 'fontsource-roboto';
 
@@ -30,9 +30,9 @@ function App() {
             </div>
           </Route>
 
-          <Route path="/connect" exact>
+          <Route path="/contact" exact>
             <div className="row justify-content-center ">
-              <Connect />
+              <Contact />
             </div>
           </Route>
 

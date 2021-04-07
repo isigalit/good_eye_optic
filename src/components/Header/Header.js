@@ -12,16 +12,16 @@ export default function Header ()
                <div class="collapse navbar-collapse">
                 <ul className="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 ">
                     <li className="nav-item col-3 col-md-auto">
-                        <a className="nav-link" href="/connect">צור קשר</a>
+                        <a className="nav-link" href="/good_eye_optic/contact">צור קשר</a>
                     </li>
                     <li className="nav-item col-3 col-md-auto">
-                        <a className="nav-link" href="/about">אודות</a>
+                        <a className="nav-link" href="/good_eye_optic/about">אודות</a>
                     </li>
                     <li className="nav-item col-3 col-md-auto">
-                        <a className="nav-link" href="/clalit">כללית אופטיק</a>
+                        <a className="nav-link" href="/good_eye_optic/clalit">כללית אופטיק</a>
                     </li>
                     <li className="nav-item col-3 col-md-auto">
-                        <a className="nav-link active" href="/">דף הבית</a>
+                        <a className="nav-link active" href="/good_eye_optic">דף הבית</a>
                     </li>
                 </ul>
                 
