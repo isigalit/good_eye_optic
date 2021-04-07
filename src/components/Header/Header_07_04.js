@@ -1,5 +1,4 @@
-import img from "./AyinTova.jpg";
-import { Link } from 'react-router-dom';
+import img from "./AyinTova.jpg"
 
 export default function Header ()
 {
@@ -13,24 +12,16 @@ export default function Header ()
                <div class="collapse navbar-collapse">
                 <ul className="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 ">
                     <li className="nav-item col-3 col-md-auto">
-                        <Link className="nav-link text-primary" to="/contact">
-                            צור קשר
-						</Link>
+                        <a className="nav-link" href="/good_eye_optic/contact">צור קשר</a>
                     </li>
                     <li className="nav-item col-3 col-md-auto">
-                        <Link className="nav-link text-primary" to="/about">
-                            אודות
-						</Link>
+                        <a className="nav-link" href="/good_eye_optic/about">אודות</a>
                     </li>
                     <li className="nav-item col-3 col-md-auto">
-                        <Link className="nav-link text-primary" to="/clalit">
-                            כללית אופטיק    
-						</Link>
+                        <a className="nav-link" href="/good_eye_optic/clalit">כללית אופטיק</a>
                     </li>
                     <li className="nav-item col-3 col-md-auto">
-                        <Link className="nav-link active text-primary" to="/">
-                            דף הבית     
-						</Link>
+                        <a className="nav-link active" href="/good_eye_optic">דף הבית</a>
                     </li>
                 </ul>
                 

@@ -8,7 +8,7 @@ import Contact from './components/Contact/Contact';
 import Clalit from './components/Clalit/Clalit';
 import 'fontsource-roboto';
 
-import { BrowserRouter,Route } from 'react-router-dom';
+import { Switch,Route } from 'react-router-dom';
 
 
 function App() {
@@ -16,8 +16,7 @@ function App() {
     <div className="h-100 d-flex flex-column jutify-content-between">
       <Header />
 
-      <BrowserRouter basename="/good_eye_optic">
-
+      <Switch>
           <Route path="/" exact>
             <div className="row justify-content-center ">
               <Home />
@@ -41,8 +40,8 @@ function App() {
               <Clalit />
             </div>
           </Route>
-        
-      </BrowserRouter>
+      </Switch> 
+x
         
       <Footer />
 
