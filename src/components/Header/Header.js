@@ -1,4 +1,4 @@
-
+import img from "./AyinTova.jpg"
 
 export default function Header ()
 {
@@ -6,7 +6,7 @@ export default function Header ()
     return(
 
         <header className="navbar navbar-expand-md bd-navbar bg-light justify-content-between">
-            <img alt="Store Logo" src="AyinTova.jpg" height="100" />
+            <img alt="card" src={img} height="100" />
         
             <nav className="container-xxl flex-wrap flex-md-nowrap" > 
                <div class="collapse navbar-collapse">

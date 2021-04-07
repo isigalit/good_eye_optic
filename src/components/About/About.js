@@ -1,5 +1,5 @@
 
-
+import img from './littleBoy.png';
 
 export default function About (){
     return (
@@ -17,7 +17,7 @@ export default function About (){
             <p> לתינוקות, ילדים ומבוגרים</p>
             <p></p>
 
-            <img alt="littleBoy" src="littleBoy.png" className="rounded float-left" height="500"/> 
+            <img alt="littleBoy" src={img} className="rounded float-left" height="500"/> 
         </div>
     );
 }

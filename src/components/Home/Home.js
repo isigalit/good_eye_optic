@@ -1,9 +1,10 @@
 
-import './Header.css';
+
 import 'fontsource-roboto';
 
 import { Button } from '@material-ui/core';
 import { useHistory } from 'react-router-dom';
+import img from "./kids.png"
 
 
 export default function Home(){
@@ -30,7 +31,7 @@ export default function Home(){
                 <h6>בדיקות ראיה לנהגים</h6>
                 <p></p>
 
-                <img alt="Clalit ad" src="kids.png" className="rounded float-left" height="400"/> 
+                <img alt="kids" src={img} className="rounded float-left" height="400"/> 
                 <p></p>
                 <div class="alert alert-primary" role="alert" />
 

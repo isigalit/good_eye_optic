@@ -1,11 +1,11 @@
 
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Connect from './components/Connect';
-import Clalit from './components/Clalit';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import About from './components/About/About'
+import Connect from './components/Connect/Connect';
+import Clalit from './components/Clalit/Clalit';
 import 'fontsource-roboto';
 
 import { Route } from 'react-router-dom';

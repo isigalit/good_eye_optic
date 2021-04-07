@@ -2,6 +2,7 @@ import LocalPhoneIcon from '@material-ui/icons/LocalPhone';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import MailIcon from '@material-ui/icons/Mail';
+import img from "./twoKids.png"
 
 
 export default function Connect ()
@@ -35,7 +36,7 @@ export default function Connect ()
                 <a href="mailto:orlyborochov@gmail.com">orlyborochov@gmail.com</a>
             </p>
 
-            <img alt="pic" src="twoKids.png" className="rounded float-left" height="500"/> 
+            <img alt="twoKids" src={img} className="rounded float-left" height="500"/> 
         </h3>
 
     );

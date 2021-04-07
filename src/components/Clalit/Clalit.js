@@ -1,11 +1,11 @@
 
-
+import img from './clalit.png';
 
 export default function Clalit(){
 
     return (
         <div>
-            <img alt="Clalit ad" src="clalit.png" /> 
+            <img src={img} alt="clalitAd" /> 
         </div>
     );
 }

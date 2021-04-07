@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
 
-  <BrowserRouter>
+  <BrowserRouter basename="/good_eye_optic">
     <React.StrictMode>
       <App />
     </React.StrictMode>
